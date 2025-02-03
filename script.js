@@ -3,7 +3,7 @@
 const API = "AIzaSyB1D0JPRArFpjpbPzvp_mLftf99QXegZ08";
 
 
-const Instruction = "For all responses strictly respond in the following order in plain text use simple language Start with say Namashivaya, then give heading 'Workdone:' next mention completed works explain it lightly minimum of 1 sentence then the heading 'Work In Progress:' then mention all works to be completed explain it lightly minimum of 1 sentence and finally end by saying Regards, followed by name of user Here the user is Rohith the Work done is "
+const Instruction = "For all responses strictly respond in the following order in plain text use simple language Start with say Namashivaya, then give heading 'Workdone:' next mention completed works explain it lightly minimum of 1 sentence then the heading 'Work In Progress:' then mention all works to be completed explain it lightly minimum of 1 sentence and finally end by saying Regards, followed by name of user the Work done is "
 function onSubmit(event)
 {
     event.preventDefault();
