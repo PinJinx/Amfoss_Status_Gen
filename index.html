@@ -10,16 +10,14 @@
     <div class="bg"></div>
     <div class="bg bg2"></div>
     <div class="bg bg3"></div>
-    
-    <img src="amfoss-logo-white-square.png" width="500" height="500">
     <div class="container">
-        <h1 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 3xl;">amFOSS</h1>
-        <h1 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 3xl;">Status Generator v1</h1>
+        <img src="logo_white.svg" width="300" height="50">
+        <h1 style="color: white Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 3xl;">Status Generator v1</h1>
         <form id="statusForm" onsubmit="onSubmit(event)">
             <input type="text" name="name" placeholder="Enter your name..." required>
             <textarea name="prompt" placeholder="What did you do today..." required></textarea>
             <textarea name="prompt2" placeholder="What do you want to do next..." required></textarea>
-            <button type="submit">Submit</button>
+            <button type="submit" style="font-weight: bolder; color: black;">Submit</button>
         </form>
         <p id="response">Response will appear here...</p>
     </div>

@@ -9,9 +9,9 @@ body {
 }
 
 .container {
-    background-color:rgba(255,255,255,.8);
-    border-radius:.25em;
-    box-shadow:0 0 .25em rgba(0,0,0,.25);
+    background-color:rgb(0, 0, 0);
+    border-radius:.75em;
+    box-shadow:0 0 .85em rgb(255, 255, 255);
     box-sizing:border-box;
     left:50%;
     padding:10vmin;
@@ -34,7 +34,7 @@ input, textarea {
 }
 
 button {
-    background-color: #9d0208;
+    background-color: #ffee00;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -45,13 +45,13 @@ button {
 }
 
 button:hover {
-    background-color: #d00000;
+    background-color: #d0c200;
 }
 
 #response {
     margin-top: 15px;
     font-size: 16px;
-    color: #dc2f02;
+    color: #ffffff;
 }
 
 html, body {
@@ -62,7 +62,7 @@ html, body {
 
 .bg {
     animation:slide 3s ease-in-out infinite alternate;
-    background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+    background-image: linear-gradient(-60deg, rgb(0, 0, 0) 50%, rgb(255, 251, 0) 50%);
     bottom:0;
     left:-50%;
     opacity:.5;
@@ -79,11 +79,10 @@ html, body {
   
 .bg3 {
     animation-duration:5s;
-}
-  
+} 
 .content {
-    background-color:rgba(255,255,255,.8);
-    border-radius:.25em;
+    background-color:rgb(253, 253, 253);
+    border-radius:1em;
     box-shadow:0 0 .25em rgba(0,0,0,.25);
     box-sizing:border-box;
     left:50%;
@@ -93,9 +92,9 @@ html, body {
     top:50%;
     transform:translate(-50%, -50%);
 }
-  
 h1 {
     font-family:monospace;
+    color: white;
 }
   
 @keyframes slide {
