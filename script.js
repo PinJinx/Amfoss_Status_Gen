@@ -22,7 +22,6 @@ function copy(){
     alert("Copied the text");
   }
 
-
 function onSubmit(event){
     event.preventDefault();
     const form=event.target;
