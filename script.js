@@ -3,7 +3,7 @@
 const API = "AIzaSyB1D0JPRArFpjpbPzvp_mLftf99QXegZ08";
 
 
-const Instruction = "For all responses strictly respond in the following order in plain text use simple language Start with say Namashivaya, then give heading 'Workdone:' next mention completed works explain it lightly minimum of 1 sentence then the heading 'Work In Progress:' then mention all works to be completed explain it lightly minimum of 1 sentence and finally end by saying Regards, followed by name of user At the end say 'Hours Worked:' followed by a random number b/w 2 to 5 the Work done is "
+const Instruction = "For all responses strictly respond in the following order in text for discord use simple language Start with say Namah Shivaya, then give heading 'Workdone:' in bold next mention completed works explain it lightly minimum of 1 sentence if more than one work then explain it in bulletin points using hyphen then the heading in bold 'Work In Progress:' then mention all works to be completed explain it lightly minimum of 1 sentence and finally end by saying Regards, followed by name of user which is below regards At the end say 'Hours Worked:' followed by a random number b/w 2 to 5 the Work done is "
 function onSubmit(event)
 {
     event.preventDefault();
